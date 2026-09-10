@@ -1,0 +1,21 @@
+#include<stdio.h>
+  2 struct book
+  3 {
+  4     char book_name[10];
+  5     char author_name[10];
+  6     int book_id;
+  7    };
+  8    void main()
+  9    {
+ 10       struct book b1;
+ 11      printf("enter book name");
+ 12      scanf("%9s",b1.book_name);
+ 13      printf("enter author name");
+ 14      scanf("%9s",b1.author_name);
+ 15      printf("enter book id");
+ 16      scanf("%d",&b1.book_id);
+ 17      printf("book_name=%s\n",b1.book_name);
+ 18      printf("author_name=%s\n",b1.author_name);
+ 19      printf("book_id=%d\n",b1.book_id);
+ 20 }
+ 21
